@@ -118,6 +118,6 @@ class StopwatchMeter(object):
         self.n = 0
         self.start_time = None
 
-    @property
+    @property     #property 方法将函数修饰为类属性调用
     def avg(self):
         return self.sum / self.n
